@@ -498,10 +498,7 @@ button {
 	font-weight:var(--main-font-weight);
 	line-height: 1.71;
 	color:var(--plus-color);
-	margin-top: 25px;
-	margin-bottom: 30px;
-
-
+	margin-bottom: 20px;
 }
 
 .modal-form-submit{
