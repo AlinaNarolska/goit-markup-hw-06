@@ -387,18 +387,19 @@
 					</li>
 				</ul>
 			</div>
-			<form class="footer-modal-form">
+			<div class="footer-modal-form">
 				<p class="footer-modal-information">Subscribe to the newsletter</p>
-				<div class="footer-wrapper">
+				<form class="footer-wrapper">
 				<input type="email" class="footer-form-input" name="email" minlength="2" placeholder="Email" required/>
 				<button type="submit" class="footer-form-submit">Subscribe
 				<svg class="footer-icon" width="24" height="24"><use href="./images/symbol-defs.svg#icon-telegram"></use></svg></button>
-				</div>
-			</form>
+				</form>
+			</div>
 			</div>
 		</footer>
 		<!-- ====================================MODEL FORMS BUTTON============== -->
-		<div class="backdrop is-hidden" data-modal>
+		<!-- --------is hidden--------- -->
+		<div class="backdrop" data-modal>
 			<div class="modal">
 				<button type="button" class="modal-close-btn" data-modal-close>
 					<svg class="modal-close-btn-icon" width="18" height="18">
@@ -415,9 +416,9 @@
 						</span>
 					</label>
 					<label class="modal-form-hero">
-						<span class="modal-form-input-desc">Telephone</span>
+						<span class="modal-form-input-desc">Phone</span>
 						<span class="modal-form-input-wrapper">
-							<input type="tel" class="modal-form-input" name="telephone" placeholder="Telephone" required pattern="^\+?[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}$" title="+xxx-xxx-xxx-xxx"/>
+							<input type="tel" class="modal-form-input" name="phone" placeholder="Phone" required pattern="^\+?[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}$" title="+xxx-xxx-xxx-xxx"/>
 						<svg class="modal-icons" width="18" height="18"><use href="./images/symbol-defs.svg#icon-phone-black"></use></svg>
 						</span>
 					</label>
@@ -428,12 +429,12 @@
 						<svg class="modal-icons" width="18" height="18"><use href="./images/symbol-defs.svg#icon-email-black"></use></svg>
 						</span>
 					</label>
-					<label class="modal-form-hero">
+					<label class="modal-form-text-area">
 						<span class="modal-form-input-desc">Comments</span>
 						<textarea name="comments" class="modal-form-message" placeholder="Enter the text"></textarea>
 					</label>
 					<input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check visually-hidden"/>
-					<label for="user-policy" class="modal-form-check-desc">I agree with the newsletter and accept the Terms and&nbsp;<a href="">Conditions</a>
+					<label for="user-policy" class="modal-form-check-desc">I agree with the newsletter and accept the Terms and&nbsp;<a href="" class="conditionns">Conditions</a>
 					</label>
 					<button type="submit" class="modal-form-submit">Send</button>
 				</form>
